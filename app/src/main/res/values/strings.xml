@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplicacion</string>
+    <string name="usuario">Usuario</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripcion_Contacto</string>
+    <string name="click">Click</string>
+    <string name="confirmacionDatos">Confirmacion_Datos</string>
+</resources>

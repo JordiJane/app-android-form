@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jordi.aplicacion.Main2Activity">
+
+    <TextView
+        android:id="@+id/confirmacionDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmacionDatos"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="nom usuari"
+        android:layout_below="@id/confirmacionDatos"
+        android:layout_margin="25dp"
+        />
+    <TextView
+        android:id="@+id/fechaNacimiento2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="data Naixement"
+        android:layout_below="@id/usuario"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="telefono"
+        android:layout_below="@id/fechaNacimiento2"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="email"
+        android:layout_below="@+id/telefono"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="descripcion"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/editar_Datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Datos"
+        android:layout_below="@id/descripcion"
+        android:layout_marginLeft="125dp"
+        />
+
+</RelativeLayout>
